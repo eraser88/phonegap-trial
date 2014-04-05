@@ -107,17 +107,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="icon.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/icon.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="config.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="110" column="0" selection-start="5572" selection-end="5572" vertical-scroll-proportion="0.7955912" vertical-offset="1473" max-vertical-offset="1972">
+            <state line="80" column="19" selection-start="3840" selection-end="3840" vertical-scroll-proportion="0.36673346" vertical-offset="1177" max-vertical-offset="1972">
               <folding />
             </state>
           </provider>
@@ -419,12 +412,12 @@
       <created>1396687573003</created>
       <updated>1396687573003</updated>
       <workItem from="1396687574340" duration="1017000" />
-      <workItem from="1396688892631" duration="2311000" />
+      <workItem from="1396688892631" duration="2486000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3328000" />
+    <option name="totallyTimeSpent" value="3503000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="6" />
@@ -538,11 +531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
@@ -613,11 +601,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/res/icon/android/icon-96-xhdpi.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -668,7 +651,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="0" selection-start="5572" selection-end="5572" vertical-scroll-proportion="0.7955912" vertical-offset="1473" max-vertical-offset="1972">
+        <state line="80" column="19" selection-start="3840" selection-end="3840" vertical-scroll-proportion="0.36673346" vertical-offset="1177" max-vertical-offset="1972">
           <folding />
         </state>
       </provider>
