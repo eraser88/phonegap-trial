@@ -2,6 +2,13 @@ var app = {
     // Application Constructor
     initialize: function () {
         this.bindEvents();
+        $.get("http://ihackernews.com", function(data){
+            $("#data1").text(data);
+        });
+        $.get("http://ip.jsontest.com", function(data){
+            $("#data2").text(data.ip);
+        });
+
     },
     // Bind Event Listeners
     //
@@ -27,5 +34,13 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
         console.log('Received Event: ' + id);
+
+        $.get("http://ihackernews.com", function(data){
+            $("#data1").text(data);
+        });
+        $.get("http://ip.jsontest.com", function(data){
+            $("#data2").text(data.ip);
+        });
+
     }
 };
