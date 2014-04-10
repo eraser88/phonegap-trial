@@ -1,29 +1,35 @@
 <!DOCTYPE html>
-<html>
+<!-- saved from url=(0048)http://html5quintus.com/quintus/examples/runner/ -->
+<html lang="en">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="format-detection" content="telephone=no"/>
-  <meta name="viewport"
-        content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css"/>
-  <title>Hello World</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+  <title>Platformer Example</title>
+  <script src="./js/quintus.js"></script>
+  <script src="./js/quintus_sprites.js"></script>
+  <script src="./js/quintus_scenes.js"></script>
+  <script src="./js/quintus_input.js"></script>
+  <script src="./js/quintus_anim.js"></script>
+  <script src="./js/quintus_2d.js"></script>
+  <script src="./js/quintus_touch.js"></script>
+  <script src="./js/quintus_ui.js"></script>
+
+  <script src="./js/runner.js"></script>
+  <style>
+    body {
+      padding: 0px;
+      margin: 0px;
+    }
+  </style>
 </head>
-<body>
-<div class="app">
-  <h1>PhoneGap</h1>
+<body style="padding: 0px; margin: 0px;">
 
-  <div id="data"></div>
 
-  <div id="deviceready" class="blink">
-    <p class="event listening">Connecting to Device</p>
-
-    <p class="event received">Device is Ready</p>
-  </div>
+<div id="quintus_container" style="width: 1440px; margin: 0px auto; position: relative;">
+  <canvas width="1440" height="797" id="quintus" tabindex="0"
+          style="height: 797px; width: 1440px; position: relative; outline: 0px;"></canvas>
 </div>
-<script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
-<script type="text/javascript" src="js/index.js"></script>
-<script type="text/javascript">
-  app.initialize();
-</script>
 </body>
 </html>
